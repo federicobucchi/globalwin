@@ -56,3 +56,5 @@ function GlobalWin(options) {
   return this.createGlobalWin(this.options)
 
 }
+
+module.exports.GlobalWin = GlobalWin;
