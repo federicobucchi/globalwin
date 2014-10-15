@@ -41,4 +41,15 @@ describe('Global Win', function(){
 
   })
 
+  describe.skip('Destroy - Move on Functional Testing', function(){
+    var globalWin = new GlobalWin();
+
+    it('globalWin should be undefined', function(){
+      globalWin.destroy();
+
+      assert(globalWin === undefined, 'globalWin still exist');
+    })
+
+  })
+
 })
