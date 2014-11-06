@@ -1,0 +1,5 @@
+{
+  "name": "globalwin",
+  "version": "0.0.1",
+  "index": "./globalwin.js"
+}
